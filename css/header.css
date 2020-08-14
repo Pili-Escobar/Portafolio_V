@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header img{
+    background-image: url(../imagenes/fondo.png);
+    width: 60%;
+    height: 330px;
+    display: block;
+    margin: auto;
+}
+nav{
+  width: 100%;
+  height: 100px;
+ background-color: #FFCAD4;
+    margin: auto;
+    margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav li{
+    list-style: none;
+}
+.inicio{
+  width: 20%;
+  height: 70px;
+  margin:  auto;
+  margin-top: 2%;
+
+  color: #FCFBFB;
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+  text-align: center;
+}
+nav .inicio:hover{/*LE AGREGA SOMBRA A LOS OBJETOS */
+  -webkit-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+}
+.boton{
+  width: 20%;
+  height: 70px;
+  margin:  auto;
+  margin-top: 2%;
+
+  color: #FCFBFB;
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+  text-align: center;
+}
+nav .boton:hover{/*LE AGREGA SOMBRA A LOS OBJETOS */
+  -webkit-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+}
+.boton2{
+  width: 20%;
+  height: 70px;
+  margin:  auto;
+  margin-top: 2%;
+
+  color: #FCFBFB;
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+  text-align: center;
+}
+nav .boton2:hover{/*LE AGREGA SOMBRA A LOS OBJETOS */
+  -webkit-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+}
+.boton3{
+  width: 20%;
+  height: 70px;
+  margin-right: 1%;
+  margin:  auto;
+  margin-top: 2%;
+
+  color: #FCFBFB;
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+  text-align: center;
+}
+nav .boton3:hover{/*LE AGREGA SOMBRA A LOS OBJETOS */
+  -webkit-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+}
+
+/*-------------------------------------RESPONSIVE---------------------------------------------------*/
+@media only screen and (max-width:767px){
+
+header img{
+    background-image: url(../imagenes/fondo.png);
+    width: 60%;
+    height: 180px;
+    display: block;
+    margin: auto;
+}
+nav{
+  width: 100%;
+  height: 60px;
+  background-color: #FFCAD4;
+  margin: auto;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}      
+.inicio{
+  width: 45%;
+  height: 80px;
+  margin:  auto;
+  margin-top: 4%;
+  margin-left: -5px;    
+
+  color: #FCFBFB;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  text-align: center;
+}
+ nav.inicio:hover{/*LE AGREGA SOMBRA A LOS OBJETOS */
+  -webkit-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+}
+.boton{
+  width: 45%;
+  height: 80px;
+  margin:  auto;
+  margin-top: 4%;
+
+  color: #FCFBFB;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  text-align: center;
+}
+nav .boton:hover{/*LE AGREGA SOMBRA A LOS OBJETOS */
+  -webkit-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+}
+.boton2{
+  width: 30%;
+  height: 80px;
+  margin:  auto;
+  margin-right: 5%;    
+  margin-top: 2%;
+
+  color: #FCFBFB;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  text-align: center;
+}
+nav .boton2:hover{/*LE AGREGA SOMBRA A LOS OBJETOS */
+  -webkit-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+}
+.boton3{
+  width: 45%;
+  height: 80px;
+  margin-right: 10%;
+  margin:  auto;
+  margin-top: 4%;
+
+  color: #FCFBFB;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  text-align: center;
+}
+nav .boton3:hover{/*LE AGREGA SOMBRA A LOS OBJETOS */
+  -webkit-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 44px 21px -1px rgba(0,0,0,0.75);
+}
+}

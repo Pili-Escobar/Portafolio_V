@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+footer{
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(to right, #edebe1, #e5d7b2, #e2c084, #e3a65b, #e58935);
+  margin-top: 1%;
+}

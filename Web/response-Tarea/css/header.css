@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.general-contenedor{
+  width: 98%;
+  height: 1000px;
+
+  margin: 0.5em auto;
+  padding: 0.5em;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.header{
+  height: 7%;
+  background-color: #28A1E2;
+  border: 1px solid black;
+}
+.titulo-de-la-pagina{
+  color: white;
+  font-family: 'Baloo Chettan', cursive;
+
+  margin: auto;
+  padding-top: 1%;
+  text-align: center;
+}
+.navegador{
+  width: 80%;
+  height: 7%;
+  background-color: #28A1E2;
+  margin: auto;
+  margin-top: 1%;
+  border: 1px solid black;
+}
+.nombre{
+  color: WHITE;
+  font-family: 'Shadows Into Light', cursive;
+
+  margin: auto;
+  padding: 2%;
+  text-align: center;
+}

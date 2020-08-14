@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.footer{
+  height: 90px;
+  background-color: #5FF034  ;
+  margin-top: 1%;
+  border: 1px solid black;
+}
+.footer img{
+  width: 3%;
+  height: 15px;
+  float: right;
+  margin: auto;
+  margin-top: 5%;
+}
+.ultimo{
+  color: BLACK;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Source Serif Pro', serif;
+  font-family: 'Concert One', cursive;
+}

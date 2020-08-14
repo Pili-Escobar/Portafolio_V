@@ -1,0 +1,42 @@
+*{
+    margin: 0;/*anulacion universal*/
+    padding: 0;
+    text-decoration: none
+}
+section{
+    width: 100%;/*anchura del div*/
+    height: 500px;/*altura del div*/
+    background-color: #9D8189;/*color del div*/
+    margin-top: 2%;
+    
+    display: flex;/*para que el objeto sea flexible*/
+}
+.personal{
+    width: 90%;
+    height: 450px;
+    background-color: #FFE5D9;
+    margin: auto;/*para centrar el div*/
+    border-radius: 1%;/*para redondear el div*/
+    
+     display: flex;
+    flex-direction: row;/*indica que se dirija hacie la derecha*/
+}
+.personal  li{
+    color: #2B2C38;
+    font-family: 'Acme', sans-serif;
+    margin-left: 80px;
+    padding-left: 10px;
+    padding-top: 5%;
+}
+.titulo1{
+    color: #474954;
+    font-family: 'Acme', sans-serif;
+    padding-top: 3%;
+    padding-left: 50px;
+}
+.fotocv{
+    margin-top: 10%;
+    margin-left: 30px;
+    width: 250px;
+    height: 350px;
+}

@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.section-index{
+  display: -webkit-flex; /*que el contenido de los buscadores se adapten*/
+  display: -ms-flexbox;
+  display: flex; /*que sea flexible*/
+  flex-direction: row;  /*indicaba que el contenido se valla de izquierda a la derecha*/
+  width: 90%;
+  height: 500px;
+  background-color: #615772;
+  margin: auto;
+  justify-content: center;
+}
+
+.precio1{
+width: 300px;
+height: 350px;
+background-color:#fefbec;
+margin-top: 75px;
+border-radius: 3px;
+display: -webkit-flex; /*que el contenido de los buscadores se adapten*/
+display: -ms-flexbox;
+display: flex; /*que sea flexible*/
+flex-direction: column;  /*indicaba que el contenido se valla de izquierda a la derecha*/
+text-align: center;
+
+}
+.separacion{
+margin-left: 20px;
+margin-right: 20px;
+}
+.precio{
+  font-family: monospace;
+  font-size: 60px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.plan{
+  font-family: monospace;
+  font-size: 40px;
+  color: gray;
+  margin-top: 25px;
+}
+.titulo{
+  font-family: monospace;
+  font-size: 25px;
+  color: black;
+  margin-top: 25px;
+}
+.descripcion{
+  font-family: serif;
+  font-size: 15px;
+  color: black;
+  margin-top: 10px;
+}
+.precio1 a{
+  text-decoration: none;
+}
+.boton{
+background-color: #aeeae8;
+margin-top: 72px;
+padding-top: 16px;
+padding-bottom: 16px;
+border-radius: 3px;
+font-family: serif;
+font-size: 22px;
+color: white;
+}
+.section-index article:hover{/*coloca sombra le da el efecto que queremos*/
+  -webkit-box-shadow: 11px -11px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px -11px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 11px -11px 15px 0px rgba(0,0,0,0.75);
+}
+
+
+@media only screen and (max-width:767px){
+  .section-index{
+    width: 100%;
+  }
+}
+.section-index{
+  width: 100%;
+}
